@@ -1,9 +1,52 @@
-var el = document.getElementsByTagName("p")[0];
+// for (var i = 0; i < org.length; i++) {
+//     // var target = document.getElementsByClassName('replace');
+//     var org = document.getElementsByClassName("org")[i];
 
-el.addEventListener("click", function(){
-    el.innerHTML = "TEST";
+//     edit.addEventListener("click", function(){
+//         org.innerHTML = "Test";
+//     });
+// }
+var edit = document.getElementById('edit');
+var n_edit = document.getElementById('n-edit');
+
+ edit.addEventListener('click', function() {
+    toggle(edit);
+    toggle(n_edit);
+    n_edit.focus();
 });
-console.log(el);
+n_edit.addEventListener('blur', function() {
+    toggle(edit);
+    toggle(n_edit);
+    edit.innerHTML = n_edit.value;
+})
+n_edit.addEventListener('keypress',function() {
+    if (event.keyCode === 13) {
+        event.target.blur();
+    }
+});
+
+
+
+// var list = document.getElementById('people');
+// var selected = document.getElementById('selected');
+
+// people.forEach(function(p) {
+//     var listItem = document.createElement("li");
+    
+//     listItem.innerHTML = p.name
+//     list.appendChild(listItem);
+    
+//     listItem.addEventListener("click", function(){
+//     selected.innerHTML = p.name;
+//     });
+// });
+
+
+
+
+
+
+
 
 
 // var username = document.getElementById('username');
