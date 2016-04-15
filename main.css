@@ -1,0 +1,109 @@
+body {
+    background-color: #EAEAEA;
+}
+.firstCol {
+    background-color: #ffffff;
+}
+.firstCol {
+    display: inline-block;
+    width: 40%;
+    padding: 4%;
+    height: 350px;
+    border: 10px solid #78BBF6;
+}
+img {
+    margin-bottom: 30px;
+}
+.firstCol h1 {
+    margin-bottom: 10px;
+}
+body {
+    padding: 20px;
+}
+.secondCol {
+    background-color: #ffffff;
+    width: 40%;
+    padding: 4%;
+    height: 350px;
+    float: right;
+    border: 10px solid #78BBF6;
+}
+.secondCol h1 {
+    text-align: center;
+}
+
+
+
+/*body {*/
+/*    background-color: #aaa;*/
+/*}*/
+
+/*img {*/
+/*    height: 200px;*/
+/*    width: 200px;*/
+/*    float: right;*/
+/*    margin-bottom: 5px;*/
+/*}*/
+
+/*div {*/
+/*    width: 200px;*/
+/*    height: 25px;*/
+/*    border: 1px black solid;*/
+/*    margin: 4px 0;*/
+/*    padding: 3px;*/
+/*}*/
+
+/*input {*/
+/*    width: 200px;*/
+/*    height: 25px;*/
+/*    border: 1px black solid;*/
+/*    margin: 4px 0;*/
+/*    padding: 3px;*/
+/*}*/
+
+/*textarea {*/
+/*    width: 480px;*/
+/*    height: 95px;*/
+/*    border: 1px black solid;*/
+/*    margin-left: 2px;*/
+/*    padding: 3px;*/
+/*}*/
+
+/*h1, h2, h3, h4, h5, h6 {*/
+/*    margin-top: 10px;*/
+/*    font-weight: bold;*/
+/*}*/
+
+/*Id's*/
+
+/*#profile-container {*/
+/*    margin: 0 auto;*/
+/*    width: 500px;*/
+/*    height: 350px;*/
+/*    padding: 10px;*/
+/*    background-color: white;*/
+/*}*/
+
+/*#bio {*/
+/*    margin: 7px 0;*/
+/*    padding: 5px;*/
+/*    width: 480px;*/
+/*    height: 95px;*/
+/*    border: 1px black solid;*/
+/*}*/
+
+/*#f-bio {*/
+/*    margin: 7px 0;*/
+/*    padding: 5px;*/
+/*    border: 1px black solid;*/
+/*}*/
+
+/*Classes*/
+
+/*.hide {*/
+/*    display: none;*/
+/*}*/
+
+/*.show {*/
+/*    display: inherit;*/
+/*}*/
